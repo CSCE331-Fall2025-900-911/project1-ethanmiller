@@ -1,10 +1,8 @@
 
-
 body {
-    background: linear-gradient(to bottom, #ebc973, #eeb26e);
+    background: linear-gradient(to top, #1e2335, #792424);
     font-family:"Fredoka", sans-serif;
     font-weight: 600;
-    letter-spacing: 5px;
     overflow: hidden;
 
     margin:0;
@@ -14,25 +12,23 @@ body {
     justify-content: space-between;
 }
 
-.name {
+
+.head {
     display: flex;
     flex-direction: column;
-    line-height: 0.5;
-    color: white;
-    font-size: 300px;
+    line-height: 1.0;
+    color:white;
+    font-size: 150px;
+    letter-spacing: 13px;
+    right: 0;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    transform: translateY(-20%);
     user-select: none;
-    transform: translateY(10%);
 }
 
-.trow {
-    letter-spacing: 28px;
-}
-
-.brow {
-    letter-spacing: 17px}
+    
 
 
 .menu-tab {
@@ -42,12 +38,11 @@ body {
     transform: translateX(-50%);
     width: 250px;
     height: 250px;
-    background: #4E5273;
+    background: #792424;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #4E5273;
     cursor: pointer;
     z-index: 5;
     
@@ -72,7 +67,7 @@ body {
     bottom: 190px;
 
     background: white;
-    border: 140px solid #4E5273;
+    border: 140px solid #792424;
 
     display: none;
     z-index:10;
@@ -85,7 +80,7 @@ body {
     align-items: center;
     top: 46%;
     bottom: 50%;
-    transform: translate(365%, -50%);
+    transform: translate(635%, -50%);
     display: none;
     z-index: 12;
 }
