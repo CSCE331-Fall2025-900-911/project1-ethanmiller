@@ -2,40 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="moonstyle.css">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="tpstyles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="menu-tab">
-        <span>MENU</span>
+    <div class = "bar">
+        <div class = "page-name">
+            >technical portfolio.
+        </div>
+        <label class = "style-switch"> 
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>        
     </div>
 
-    <div class="menu">
+    <div class = "menu-tab-wrapper">
+        <div class="tab-handle">
+            <span class="menu-label">menu?</span>
+        </div>
+        <div class = "menu-tab">
+            <ul class="menu-items">
+                <li><a href="index.html">  Landing Page</a></li>
+                <li><a href="technical.html">  Technical Portfolio</a></li>
+                <li><a href="services.html">  Services</a></li>
+                <li><a href="qualifications.html">  Qualifications</a></li>
+                <li><a href="ai.html">  Artificial Intelligence</a></li>
+            </ul>
+        </div>
     </div>
-
-    <h1 class="head">
-        <span class="trow">TECHNICAL</span>
-        <span class = "brow"> PORTFOLIOS</span>
-        
-    </h1>
-
-    <div class="temp-menu">
-        <ul>
-            <li><a href="index.html">Landing Page</a></li>
-            <li><a href="technical.html">Technical Portfolio</a></li>
-            <li><a href="qualifications.html">Qualifications</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="ai.html">AI</a></li>
-        </ul>
-    </div>
-
     <script src = "script.js"></script>
-
+    
 </body>
 </html>

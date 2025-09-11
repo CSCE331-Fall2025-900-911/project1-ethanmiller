@@ -1,16 +1,18 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const menuTab = document.querySelector('.menu-tab');
-    const menu = document.querySelector('.menu');
-    const tempMenu = document.querySelector('.temp-menu')
+    const tabHandle = document.querySelector('.tab-handle')
+    const menuLabel = document.querySelector('.menu-label');
 
-    if(!menuTab || !menu) {
-        console.error("Cannot find .menu-tab or .menu element");
-        return;
-    }
+    tabHandle.addEventListener("click", () => {
+        menuTab.classList.toggle("expanded");
+        tabHandle.classList.toggle("expanded");
 
-    menuTab.addEventListener('click', () => {
-        menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
-        tempMenu.style.display = tempMenu.style.display === 'none' ? 'block' : 'none';
+        if(tabHandle.classList.contains('expanded')) {
+            menuLabel.textContent = "menu.";
+        }
+        else {
+            menuLabel.textContent ="menu?";
+        }
     });
 });
