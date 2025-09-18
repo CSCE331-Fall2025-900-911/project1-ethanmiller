@@ -1,7 +1,7 @@
 
 
 body {
-    background: linear-gradient(to bottom, rgb(57, 57, 71), rgb(21, 21, 31));
+    background: linear-gradient(to bottom, rgb(176, 221, 233), rgb(110, 171, 208));
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .bar {
-    background-color: rgb(30, 29, 31);
+    background-color: rgb(241, 225, 152);
     height: 12.50vh;
     width: 100%;
     position: fixed;
@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     padding-left: 2vw;
 
-    border-bottom: .5vh solid rgb(255, 215, 84);
+    border-bottom: .5vh solid rgb(215, 133, 81);
 }
 
 .page-name {
@@ -30,7 +30,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     letter-spacing: .4vh;
-    color: rgb(255, 215, 84);
+    color: rgb(215, 133, 81);
     z-index: 5;
 }
 
@@ -50,7 +50,7 @@ body {
     transform: translateX(-50%);
     width: 25vh;
     height: 25vh;
-    background: rgb(255, 215, 84);
+    background: rgb(215, 133, 81);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     letter-spacing: 0.20vh;
-    color:  rgb(30, 29, 31);
+    color:   rgb(241, 225, 152);
     position: relative;
     top:-3.3vh;
     left:.59vh;
@@ -83,7 +83,7 @@ body {
     bottom: -12.5vh;
     border-radius: 50%;
     transition: all 0.3s ease;
-    background:  rgb(255, 215, 84);
+    background:  rgb(215, 133, 81);
 }
 
 .menu-tab.expanded {
@@ -123,7 +123,7 @@ body {
     display: inline-block;
     width: 0.8em;
     height: 0.8em;
-    background-color: rgb(30, 29, 31) ;
+    background-color:  rgb(241, 225, 152) ;
     vertical-align: middle;
     transform: rotate(45deg);
     margin-right: 0.5em;
@@ -134,7 +134,7 @@ body {
     text-decoration: none;
     font-size: 3.0vh;
     font-family: "Montserrat", sans-serif;
-    color:  rgb(30, 29, 31);
+    color:   rgb(241, 225, 152);
     font-weight: 600;
     transition: color 0.1s ease;
     z-index: 10;
@@ -172,7 +172,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:  rgb(255, 215, 84);
+    background-color:  rgb(215, 133, 81);
     border-radius: 9.0vh;
     transition: 0.3s;
 }
@@ -184,7 +184,7 @@ body {
     width: 5.5vh;
     left: 1vh;
     top: 1vh;
-    background-color:  rgb(30, 29, 31);
+    background-color:   rgb(241, 225, 152);
     border-radius: 50%;
     transition: 0.3s;
 }
@@ -216,7 +216,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background: rgb(255, 215, 84);
+    background: rgb(241, 225, 152);
     width: 11vh;
     height: 11vh;
     border-radius: 50%;
@@ -225,7 +225,7 @@ body {
 
 .up-button:hover {
     background: white;
-    /*box-shadow: 0 0 0.5vh 0.1vh white;*/
+    /*box-shadow: 0 0 0.5vh 0.1vh rgb(241, 225, 152);*/
 }
 
 .up-pointer {
@@ -233,7 +233,7 @@ body {
     height: 0;
     border-left: 3vh solid transparent;
     border-right: 3vh solid transparent;
-    border-bottom: 3vh solid rgb(30, 29, 31);
+    border-bottom: 3vh solid rgb(215, 133, 81);
     position:relative;
     top: -0.25vh;
 }
@@ -244,7 +244,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background: rgb(255, 215, 84);
+    background: rgb(241, 225, 152);
     width: 11vh;
     height: 11vh;
     border-radius: 50%;
@@ -252,7 +252,7 @@ body {
 
 .down-button:hover {
     background: white;
-    /*box-shadow: 0 0 0.5vh 0.1vh white;*/
+    /*box-shadow: 0 0 0.5vh 0.1vh rgb(241, 225, 152);*/
 }
 
 .down-pointer {
@@ -260,7 +260,7 @@ body {
     height: 0;
     border-left: 3vh solid transparent;
     border-right: 3vh solid transparent;
-    border-top: 3vh solid rgb(30, 29, 31);
+    border-top: 3vh solid  rgb(215, 133, 81);
     position: relative;
     top: 0.5vh;
 }
@@ -277,7 +277,7 @@ body {
     border-radius: 5vh;
     height: 70vh;
     width: 70vh;
-    border: 0.5vh solid rgb(255, 215, 84);
+    border: 0.5vh solid rgb(215, 133, 81);
     animation: bounce 9s ease-in-out infinite;
 }
 
@@ -310,7 +310,7 @@ body {
 
 .tch-body-head {
     font-family: "Montserrat", sans-serif;
-    color: white;
+    color: rgb(241, 225, 152);
     font-size: 4.0vh;
     font-weight: 600;
     text-align: center;
@@ -319,7 +319,7 @@ body {
 
 .tch-b-txt {
     font-family: "Montserrat", sans-serif;
-    color: rgb(255, 215, 84);
+    color: rgb(215, 133, 81);
     font-size: 2.0vh;
     font-weight: 600;
     padding: 2vh 6.5vh;
@@ -330,7 +330,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 2.0vh;
     font-weight: 600;
-    color:rgb(255, 215, 84);
+    color:rgb(215, 133, 81);
     padding: 2vh 6.5vh;
 }
 
@@ -350,7 +350,7 @@ body {
     text-decoration: none;
     list-style: none;
     font-family: "Montserrat", sans-serif;
-    color: white;
+    color: rgb(241, 225, 152);
     font-size: 2.0vh;
     font-weight: 600;
 }
@@ -385,7 +385,7 @@ body {
     width: 18vh;
     height: 18vh;
     border-radius: 50%;
-    background: rgb(255, 215, 84);
+    background: rgb(215, 133, 81);
     transition: all 0.15s ease;
     display: flex;
     flex-direction: column;
@@ -403,7 +403,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 6vh;
     font-weight: 600;
-    color: white;
+    color: rgb(241, 225, 152);
     transform: translate(0vh, -9.4vh);
     z-index: -1;
     opacity: 0;
@@ -423,7 +423,7 @@ body {
     width: 18vh;
     height: 18vh;
     border-radius: 50%;
-    background: rgb(255, 215, 84);
+    background: rgb(215, 133, 81);
     display: flex;
     flex-direction: column;
     transition: all 0.15s ease;
@@ -440,7 +440,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 6vh;
     font-weight: 600;
-    color: white;
+    color: rgb(241, 225, 152);
     transform: translate(0vh, -9.2vh);
     z-index: -1;
     opacity: 0;
@@ -460,7 +460,7 @@ body {
     width: 18vh;
     height: 18vh;
     border-radius: 50%;
-    background: rgb(255, 215, 84);
+    background: rgb(215, 133, 81);
     transition: all 0.15s ease;
     display: flex;
     flex-direction: row;
@@ -474,7 +474,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 6vh;
     font-weight: 600;
-    color: white;
+    color: rgb(241, 225, 152);
     transform: translate(0vh, 5.2vh);
     z-index: -1;
     opacity: 0;
@@ -499,7 +499,7 @@ body {
     width: 18vh;
     height: 18vh;
     border-radius: 50%;
-    background: rgb(255, 215, 84);
+    background: rgb(215, 133, 81);
     transition: all 0.15s ease;
     display: flex;
     flex-direction: row;
@@ -513,7 +513,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 6vh;
     font-weight: 600;
-    color: white;
+    color: rgb(241, 225, 152);
     transform: translate(0vh, 5.2vh);
     z-index: -1;
     opacity: 0;
@@ -615,7 +615,7 @@ body {
     transform: scale(0);
     width: 12vh;
     height: 12vh;
-    background: white;
+    background: rgb(241, 225, 152);
     border-radius: 50%;
     opacity: 0;
     overflow: hidden;
@@ -649,7 +649,7 @@ body {
     transform: scale(0);
     width: 12vh;
     height: 12vh;
-    background: white;
+    background: rgb(241, 225, 152);
     border-radius: 50%;
     opacity: 0;
     overflow: hidden;
@@ -683,7 +683,7 @@ body {
     transform: scale(0);
     width: 12vh;
     height: 12vh;
-    background: white;
+    background: rgb(241, 225, 152);
     border-radius: 50%;
     opacity: 0;
     overflow: hidden;
@@ -728,7 +728,7 @@ body {
   height: 55vh;
   top:6%;
   background: transparent; /* semi-transparent */
-  border: 0.5vh solid rgb(255, 215, 84);
+  border: 0.5vh solid rgb(215, 133, 81);
   border-radius: 1vh;
   padding: 1.5rem 1rem 1rem 1rem;
   box-sizing: border-box;
@@ -739,7 +739,7 @@ body {
   position: absolute;
   top: -6.8vh;
   left: 4vh;
-  background: rgb(255, 215, 84);
+  background: rgb(215, 133, 81);
   color: black;
   font-weight: 600;
   padding: 2vh 8vh;
@@ -757,6 +757,6 @@ body {
 
 .content p {
   margin-bottom: 2vh;
-  color: white;
+  color: rgb(241, 225, 152);
   line-height: 1.4;
 }
