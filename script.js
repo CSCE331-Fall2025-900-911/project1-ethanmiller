@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const lb1 = document.querySelectorAll('.lb1inner');
     const lb2 = document.querySelectorAll('.lb2inner');
     const lb3 = document.querySelectorAll('.lb3inner');
-    const styleSwitch = document.querySelector('.style-switch input');
-    let themeLink = document.querySelector('link[rel="stylesheet"]');
+    const upbtn = document.getElementById('upbtn');
+    const dwnbtn = document.getElementById('dwnbtn');
+    
+    
     let current = 0;
     let isActive = false;
 
@@ -24,26 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-   function setTheme(theme) {
-    themeLink.href = theme;
-    localStorage.setItem('selectedTheme', theme);
-}
 
-const savedTheme = localStorage.getItem('selectedTheme');
-if (savedTheme) {
-    themeLink.href = savedTheme;
 
-    styleSwitch.checked = (savedTheme === 'moonstyle.css');
-}
 
-styleSwitch.addEventListener('change', () => {
-    if (styleSwitch.checked) {
-        setTheme('moonstyle.css');
-    } else {
-        setTheme('saucestyle.css');
-    }
-});
-
+if(upbtn) {
     document.getElementById('upbtn').addEventListener('click', () => {
         if (isActive) return;
         isActive = true;
@@ -86,7 +72,9 @@ styleSwitch.addEventListener('change', () => {
             isActive = false;
         });
     });
+}
 
+if(dwnbtn) {
     document.getElementById('dwnbtn').addEventListener('click', () => {
         if (isActive) return;
         isActive = true;
@@ -113,5 +101,6 @@ styleSwitch.addEventListener('change', () => {
             isActive = false;
         });
     });
+}
 });
 

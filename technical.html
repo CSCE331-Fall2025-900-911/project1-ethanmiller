@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="saucestyle.css">
+    <link id="theme-link" rel="stylesheet" type="text/css" href="saucestyle.css">
     <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
             >technical portfolio.
         </div>
         <label class = "style-switch"> 
-            <input type="checkbox">
+            <input type="checkbox" id = "style-switch">
             <span class="slider"></span>
         </label>        
     </div>
@@ -48,7 +48,7 @@
 
     <div class = "tch-body-wrapper">
         <div id = "body1" class = "tch-body active">
-            <img src ="funbox.png">
+            <img id = "theme-img" alt = "theme-img-2">
             <span id = "body1-head" class = "tch-body-head">
                 Project Manager at Funbox!
             </span>
@@ -63,11 +63,10 @@
             </ul>
             <span class = "repo">
                 Repo:
-                <a href="https://github.com/ethanmtamu/Funbox">Here!</a>
+                <a href="https://github.com/ethanmtamu/Funbox">Coming Soon!</a>
             </span>
         </div>
         <div id = "body2" class = "tch-body">
-            <img src ="funbox_logo.png">
             <span id= "body2-head" class = "tch-body-head">Developer of Kuiper</span>
             <span class="tch-b-txt">I am the solo developer of the video game Kuiper, a turn-based strategy video game. The project is web-based and multiplayer, with the ability to host sessions.</span>
             <ul class ="tch-b-bullets">
@@ -100,6 +99,8 @@
     </div>
 
     <script src = "script.js"></script>
+    <script src = "themeswitch.js"></script>
+
 
     
 </body>

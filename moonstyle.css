@@ -9,6 +9,10 @@ body {
     justify-content: space-between;
 }
 
+#theme-img {
+    content: url(funbox.png);
+}
+
 .bar {
     background-color: rgb(30, 29, 31);
     height: 12.50vh;
@@ -16,6 +20,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 6;
 
     display: flex;
     align-items: center;
@@ -157,6 +162,7 @@ body {
     height: 7.50vh;
     width: 15.50vh;
     margin-right: 6vh;
+    z-index: 100;
 }
 
 .style-switch input {
@@ -761,4 +767,17 @@ body {
   margin-bottom: 2vh;
   color: white;
   line-height: 1.4;
+}
+
+iframe {
+    position: fixed !important;    
+    bottom: 1vh !important;       
+    right: 1vh !important;        
+    width: 80vh !important;       
+    height: 40vh !important;     
+    max-width: 100% !important;   
+    border: 0.3vh solid rgb(255, 215, 84) !important;
+    border-radius: 1vh !important;
+    z-index: 3 !important;   
+    background-color: white !important;
 }

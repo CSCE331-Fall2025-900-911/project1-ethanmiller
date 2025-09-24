@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+#theme-img {
+    content: url(funbox_dark.png);
+}
+
 /* ====== TOP BAR ====== */
 .bar {
     display: flex;
